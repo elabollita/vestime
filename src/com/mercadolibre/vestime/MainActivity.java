@@ -1,7 +1,5 @@
 package com.mercadolibre.vestime;
 
-import com.mercadolibre.vestime.R;
-
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -101,7 +99,6 @@ public class MainActivity extends Activity {
 			
 
 			
-
 		}
 		
 	};
