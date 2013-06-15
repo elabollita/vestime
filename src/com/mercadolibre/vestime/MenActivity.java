@@ -1,25 +1,22 @@
 package com.mercadolibre.vestime;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.ImageButton;
-import android.widget.ImageView.ScaleType;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 public class MenActivity extends Activity {
 
-	LinearLayout slideHome;
-	ImageButton menuBtn;
-	
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+    LinearLayout slideHome;
+    ImageButton menuBtn;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.men_layout);
 
         slideHome = (LinearLayout)findViewById(R.id.slide_home);
 
@@ -43,13 +40,13 @@ public class MenActivity extends Activity {
 
                 sImg01.setBackgroundColor(Color.TRANSPARENT);
                 sImg01.setImageResource(R.drawable.publicidad);
-                sImg01.setScaleType(ScaleType.CENTER_CROP);
+                sImg01.setScaleType(ImageView.ScaleType.CENTER_CROP);
                 sImg01.setPadding(0,0,0,0);
                 sImg01.setLayoutParams(imgParamsLeft);
 
                 sImg02.setBackgroundColor(Color.TRANSPARENT);
                 sImg02.setImageResource(R.drawable.publicidad);
-                sImg02.setScaleType(ScaleType.CENTER_CROP);
+                sImg02.setScaleType(ImageView.ScaleType.CENTER_CROP);
                 sImg02.setPadding(0,0,0,0);
                 sImg02.setLayoutParams(imgParamsRigth);
 
@@ -65,7 +62,7 @@ public class MenActivity extends Activity {
 
                 sImg01.setBackgroundColor(Color.TRANSPARENT);
                 sImg01.setImageResource(R.drawable.publicidad);
-                sImg01.setScaleType(ScaleType.CENTER_CROP);
+                sImg01.setScaleType(ImageView.ScaleType.CENTER_CROP);
                 sImg01.setPadding(0,0,0,0);
                 sImg01.setLayoutParams(imgParamsLeft);
 
@@ -84,14 +81,14 @@ public class MenActivity extends Activity {
 
         }
 
-	}
+    }
 
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
-	}
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
 
 }

@@ -64,7 +64,7 @@ public class MainActivity extends TabActivity {
         tabHost.addTab(NinoSpec); // Adding songs tab
         tabHost.addTab(NinaSpec); // Adding songs tab
         tabHost.addTab(BebeSpec); // Adding songs tab
-		
+
 	}
 	
 	private OnClickListener gotoSection = new OnClickListener() {
