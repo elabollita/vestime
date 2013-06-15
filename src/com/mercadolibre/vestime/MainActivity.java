@@ -2,6 +2,9 @@ package com.mercadolibre.vestime;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.app.TabActivity;
+import android.widget.TabHost;
+import android.widget.TabHost.TabSpec;
 import android.content.Intent;
 import android.graphics.Color;
 import android.util.DisplayMetrics;
@@ -13,7 +16,7 @@ import android.widget.ImageView.ScaleType;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-public class MainActivity extends Activity {
+public class MainActivity extends TabActivity {
 
 	LinearLayout slideHome;
 	ImageButton menuBtn;
@@ -22,73 +25,45 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		slideHome = (LinearLayout)findViewById(R.id.slide_home);
-				
-		menuBtn = (ImageButton)findViewById(R.id.menuBtn);
+        TabHost tabHost = getTabHost();
 
-		menuBtn.setOnClickListener(gotoSection);
-		
-		
-		int content = 0;
-		
-		for(int i=0;i<9;i++){
-			
-			LinearLayout contentButton = new LinearLayout(this);
-			LinearLayout.LayoutParams contentBtnParams = new LinearLayout.LayoutParams(0, 300,1f);
-			contentButton.setOrientation(LinearLayout.HORIZONTAL);
-			
-			if(content == 0){
-				ImageButton sImg01 = new ImageButton(this);
-				ImageButton sImg02 = new ImageButton(this);
-						
-				LinearLayout.LayoutParams imgParamsLeft = new LinearLayout.LayoutParams(0, 300,0.5f);
-				LinearLayout.LayoutParams imgParamsRigth = new LinearLayout.LayoutParams(0, 300,0.5f);
-				imgParamsLeft.setMargins(2, 2, 2, 2);
-				imgParamsRigth.setMargins(2, 2, 2, 2);
-				
-				sImg01.setBackgroundColor(Color.TRANSPARENT);
-				sImg01.setImageResource(R.drawable.publicidad);
-				sImg01.setScaleType(ScaleType.CENTER_CROP);
-				sImg01.setPadding(0,0,0,0);
-				sImg01.setLayoutParams(imgParamsLeft);
-				
-				sImg02.setBackgroundColor(Color.TRANSPARENT);
-				sImg02.setImageResource(R.drawable.publicidad);
-				sImg02.setScaleType(ScaleType.CENTER_CROP);
-				sImg02.setPadding(0,0,0,0);
-				sImg02.setLayoutParams(imgParamsRigth);
-				
-				contentButton.addView(sImg01);
-				contentButton.addView(sImg02);
-				
-			}else{
-				
-				ImageButton sImg01 = new ImageButton(this);
-						
-				LinearLayout.LayoutParams imgParamsLeft = new LinearLayout.LayoutParams(0, 300,1f);
-				imgParamsLeft.setMargins(2, 2, 2, 2);
-				
-				sImg01.setBackgroundColor(Color.TRANSPARENT);
-				sImg01.setImageResource(R.drawable.publicidad);
-				sImg01.setScaleType(ScaleType.CENTER_CROP);
-				sImg01.setPadding(0,0,0,0);
-				sImg01.setLayoutParams(imgParamsLeft);
+        // Tab for MenActivity
+        TabSpec menSpec = tabHost.newTabSpec("Men");
+        // setting Title and Icon for the Tab
+        menSpec.setIndicator("Men", getResources().getDrawable(R.drawable.ic_launcher));
+        Intent menIntent = new Intent(this, MenActivity.class);
+        menSpec.setContent(menIntent);
 
-				contentButton.addView(sImg01);
-			
-			}
-			
-			slideHome.addView(contentButton);
-			
-			if(i==1){
-				
-				content = 1;
-			}else{
-				content = 0;
-			}
-			
-		}
-		
+        // Tab for WomenActivity
+        TabSpec WomenSpec = tabHost.newTabSpec("Women");
+        WomenSpec.setIndicator("Women", getResources().getDrawable(R.drawable.ic_launcher));
+        Intent WomenIntent = new Intent(this, WomenActivity.class);
+        WomenSpec.setContent(WomenIntent);
+
+        // Tab for WomenActivity
+        TabSpec NinoSpec = tabHost.newTabSpec("Niño");
+        NinoSpec.setIndicator("Niño", getResources().getDrawable(R.drawable.ic_launcher));
+        Intent NinoIntent = new Intent(this, NeneActivity.class);
+        NinoSpec.setContent(NinoIntent);
+
+        // Tab for WomenActivity
+        TabSpec NinaSpec = tabHost.newTabSpec("Niña");
+        NinaSpec.setIndicator("Niña", getResources().getDrawable(R.drawable.ic_launcher));
+        Intent NinaIntent = new Intent(this, NenaActivity.class);
+        NinaSpec.setContent(NinaIntent);
+
+        // Tab for WomenActivity
+        TabSpec BebeSpec = tabHost.newTabSpec("Bebe");
+        BebeSpec.setIndicator("Bebe", getResources().getDrawable(R.drawable.ic_launcher));
+        Intent BebeIntent = new Intent(this, BebeActivity.class);
+        BebeSpec.setContent(BebeIntent);
+
+        // Adding all TabSpec to TabHost
+        tabHost.addTab(menSpec); // Adding photos tab
+        tabHost.addTab(WomenSpec); // Adding songs tab
+        tabHost.addTab(NinoSpec); // Adding songs tab
+        tabHost.addTab(NinaSpec); // Adding songs tab
+        tabHost.addTab(BebeSpec); // Adding songs tab
 		
 	}
 	

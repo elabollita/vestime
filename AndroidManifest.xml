@@ -28,7 +28,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
+
+        <activity android:name=".WomenActivity" />
+        <activity android:name=".MenActivity" />
+        <activity android:name=".NeneActivity" />
+        <activity android:name=".NenaActivity" />
+        <activity android:name=".BebeActivity" />
+
     </application>
 
 </manifest>
