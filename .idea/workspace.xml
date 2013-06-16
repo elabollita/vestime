@@ -26,26 +26,7 @@
     <option name="TOOL_WINDOW_CUSTOM_FILTER" value="error" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a30f0329-0a09-43da-81f6-b9b0d4f105e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mercadolibre/vestime/FilterActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mercadolibre/vestime/ProductActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/filter_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/prod_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mercadolibre/vestime/BebeActivity.java" afterPath="$PROJECT_DIR$/src/com/mercadolibre/vestime/BebeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mercadolibre/vestime/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/mercadolibre/vestime/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mercadolibre/vestime/MenActivity.java" afterPath="$PROJECT_DIR$/src/com/mercadolibre/vestime/MenActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mercadolibre/vestime/NenaActivity.java" afterPath="$PROJECT_DIR$/src/com/mercadolibre/vestime/NenaActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mercadolibre/vestime/NeneActivity.java" afterPath="$PROJECT_DIR$/src/com/mercadolibre/vestime/NeneActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mercadolibre/vestime/WomenActivity.java" afterPath="$PROJECT_DIR$/src/com/mercadolibre/vestime/WomenActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/bebes.xml" afterPath="$PROJECT_DIR$/res/layout/bebes.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/men_layout.xml" afterPath="$PROJECT_DIR$/res/layout/men_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/nena.xml" afterPath="$PROJECT_DIR$/res/layout/nena.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/nene.xml" afterPath="$PROJECT_DIR$/res/layout/nene.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/women_layout.xml" afterPath="$PROJECT_DIR$/res/layout/women_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a30f0329-0a09-43da-81f6-b9b0d4f105e6" name="Default" comment="" />
     <ignored path="vestime.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
