@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.mercadolibre.vestime"
     android:versionCode="1"
     android:versionName="1.0" >
@@ -15,32 +16,72 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     
     
+=======
+          package="com.mercadolibre.vestime"
+          android:versionCode="1"
+          android:versionName="1.0" >
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+>>>>>>> 2b9729bbad1fb96fc21bffd5d966b4949c773b8c
 
     <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="17" />
+            android:minSdkVersion="9"
+            android:targetSdkVersion="17" />
 
     <application
+<<<<<<< HEAD
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.mercadolibre.vestime.HomeMercadoActivity"
+=======
+            android:allowBackup="true"
+            android:icon="@drawable/ic_launcher"
+>>>>>>> 2b9729bbad1fb96fc21bffd5d966b4949c773b8c
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
+            android:theme="@style/AppTheme" >
+        <activity
+                android:name="com.mercadolibre.vestime.MainActivity"
+                android:label="@string/app_name"
+                android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         
         <activity
             android:name="com.mercadolibre.vestime.ProductViewActivity"
             android:screenOrientation="portrait" >
         </activity>
         
+=======
+
+        <activity android:name="com.mercadolibre.vestime.ProductActivity"
+                  android:screenOrientation="portrait" />
+
+
+        <activity android:name=".FilterActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".WomenActivity" />
+        <activity android:name=".MenActivity" />
+        <activity android:name=".NeneActivity" />
+        <activity android:name=".NenaActivity" />
+        <activity android:name=".BebeActivity" />
+
+
+>>>>>>> 2b9729bbad1fb96fc21bffd5d966b4949c773b8c
     </application>
 
 </manifest>

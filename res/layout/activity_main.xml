@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -48,6 +49,7 @@
         </RelativeLayout>
         
     </RelativeLayout>
+<<<<<<< HEAD
     
     <ScrollView
         	android:layout_below="@+id/header"
@@ -65,5 +67,27 @@
 	    </LinearLayout>
     
  	</ScrollView>
+=======
+
+    <TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@android:id/tabhost"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+            android:layout_below="@+id/header">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"/>
+        </LinearLayout>
+    </TabHost>
+>>>>>>> 2b9729bbad1fb96fc21bffd5d966b4949c773b8c
 
 </RelativeLayout>
