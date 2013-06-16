@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 
 public class MenActivity extends Activity {
 
@@ -18,8 +19,7 @@ public class MenActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.men_layout);
 
-        slideHome = (LinearLayout)findViewById(R.id.slide_home);
-
+        slideHome = (LinearLayout)findViewById(R.id.slide_home_men );
 
         int content = 0;
 
@@ -83,6 +83,9 @@ public class MenActivity extends Activity {
 
     }
 
+    /*
+
+     */
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

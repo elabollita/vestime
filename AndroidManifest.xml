@@ -33,6 +33,12 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="com.mercadolibre.vestime.ProductActivity"
+                  android:screenOrientation="portrait" />
+
+
+        <activity android:name=".FilterActivity"
+                  android:screenOrientation="portrait"/>
         <activity android:name=".WomenActivity" />
         <activity android:name=".MenActivity" />
         <activity android:name=".NeneActivity" />

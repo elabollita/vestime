@@ -3,6 +3,7 @@ package com.mercadolibre.vestime;
 import android.os.Bundle;
 import android.app.Activity;
 import android.app.TabActivity;
+import android.widget.ScrollView;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 import android.content.Intent;
@@ -59,21 +60,31 @@ public class MainActivity extends TabActivity {
         BebeSpec.setContent(BebeIntent);
 
         // Adding all TabSpec to TabHost
-        tabHost.addTab(menSpec); // Adding photos tab
-        tabHost.addTab(WomenSpec); // Adding songs tab
-        tabHost.addTab(NinoSpec); // Adding songs tab
-        tabHost.addTab(NinaSpec); // Adding songs tab
-        tabHost.addTab(BebeSpec); // Adding songs tab
+        tabHost.addTab(menSpec);
+        tabHost.addTab(WomenSpec);
+        tabHost.addTab(NinoSpec);
+        tabHost.addTab(NinaSpec);
+        tabHost.addTab(BebeSpec);
+
+        menuBtn = (ImageButton)findViewById(R.id.menuBtn);
+
+        menuBtn.setOnClickListener(gotoSection);
+
+        intent = new Intent(MylocalData.getInstance().context, MenuActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        MylocalData.getInstance().context.startActivity(intent);
+        overridePendingTransition( R.anim.slide_in_left, R.anim.slide_in_right );
+
 
 	}
-	
+
+
+
 	private OnClickListener gotoSection = new OnClickListener() {
 		Intent intent ;
 		
 		public void onClick(View v) {
-			
 
-			
 		}
 		
 	};

@@ -12,7 +12,7 @@
             android:layout_height="wrap_content" >
 
         <LinearLayout
-                android:id="@+id/slide_home"
+                android:id="@+id/slide_home_men"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:background="#ccc"
