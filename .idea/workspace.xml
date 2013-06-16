@@ -22,12 +22,12 @@
       <config />
     </shared>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="error" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="a30f0329-0a09-43da-81f6-b9b0d4f105e6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/mercadolibre/vestime/R.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mercadolibre/vestime/HomeMercadoActivity.java" afterPath="$PROJECT_DIR$/src/com/mercadolibre/vestime/HomeMercadoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mercadolibre/vestime/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/mercadolibre/vestime/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vestime.iws" />
@@ -98,17 +98,32 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="40" selection-start="1461" selection-end="1468" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1470">
+            <state line="64" column="23" selection-start="2385" selection-end="2385" vertical-scroll-proportion="-6.111111" vertical-offset="795" max-vertical-offset="1185">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HomeMercadoActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mercadolibre/vestime/HomeMercadoActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="26" selection-start="1816" selection-end="1816" vertical-scroll-proportion="2.554945" vertical-offset="0" max-vertical-offset="3465">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="4" selection-start="884" selection-end="884" vertical-scroll-proportion="0.5597015" vertical-offset="15" max-vertical-offset="1380">
-              <folding />
+            <state line="25" column="17" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="1050">
+              <folding>
+                <element signature="e#1122#1139#0" expanded="true" />
+                <element signature="e#1346#1364#0" expanded="true" />
+                <element signature="e#1548#1566#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,8 +140,10 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mercadolibre/vestime/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="22" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0" vertical-offset="933" max-vertical-offset="1575">
-              <folding />
+            <state line="24" column="13" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1620">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,18 +196,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prod_activity.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/prod_activity.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="35" selection-start="266" selection-end="281" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="7935">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -209,8 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/nene.xml" />
-        <option value="$PROJECT_DIR$/res/layout/nena.xml" />
         <option value="$PROJECT_DIR$/res/layout/bebes.xml" />
         <option value="$PROJECT_DIR$/src/com/mercadolibre/vestime/BebeActivity.java" />
         <option value="$PROJECT_DIR$/src/com/mercadolibre/vestime/NeneActivity.java" />
@@ -224,6 +227,8 @@
         <option value="$PROJECT_DIR$/res/layout/filter_layout.xml" />
         <option value="$PROJECT_DIR$/src/com/mercadolibre/vestime/FilterActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/src/com/mercadolibre/vestime/HomeMercadoActivity.java" />
         <option value="$PROJECT_DIR$/src/com/mercadolibre/vestime/MainActivity.java" />
       </list>
     </option>
@@ -570,25 +575,25 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920793" sideWeight="0.671875" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920793" sideWeight="0.6703125" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328125" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3265625" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3271028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3265625" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958813" sideWeight="0.671875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958813" sideWeight="0.6734375" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5955519" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -655,16 +660,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/bebes.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="48" selection-start="606" selection-end="606" vertical-scroll-proportion="-7.7777777" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/men_layout.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -772,22 +767,37 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="40" selection-start="1461" selection-end="1468" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1470">
+        <state line="64" column="23" selection-start="2385" selection-end="2385" vertical-scroll-proportion="-6.111111" vertical-offset="795" max-vertical-offset="1185">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mercadolibre/vestime/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="22" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0" vertical-offset="933" max-vertical-offset="1575">
-          <folding />
+        <state line="24" column="13" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1620">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="884" selection-end="884" vertical-scroll-proportion="0.5597015" vertical-offset="15" max-vertical-offset="1380">
-          <folding />
+        <state line="25" column="17" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="1050">
+          <folding>
+            <element signature="e#1122#1139#0" expanded="true" />
+            <element signature="e#1346#1364#0" expanded="true" />
+            <element signature="e#1548#1566#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mercadolibre/vestime/HomeMercadoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="26" selection-start="1816" selection-end="1816" vertical-scroll-proportion="2.554945" vertical-offset="0" max-vertical-offset="3465">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -25,6 +25,9 @@ public class MainActivity extends TabActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
+        MylocalData.getInstance().context = this.getApplicationContext();
+
 		setContentView(R.layout.activity_main);
         TabHost tabHost = getTabHost();
 
@@ -69,8 +72,8 @@ public class MainActivity extends TabActivity {
         menuBtn = (ImageButton)findViewById(R.id.menuBtn);
 
         menuBtn.setOnClickListener(gotoSection);
-
-        intent = new Intent(MylocalData.getInstance().context, MenuActivity.class);
+        Intent intent;
+        intent = new Intent(MylocalData.getInstance().context, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         MylocalData.getInstance().context.startActivity(intent);
         overridePendingTransition( R.anim.slide_in_left, R.anim.slide_in_right );

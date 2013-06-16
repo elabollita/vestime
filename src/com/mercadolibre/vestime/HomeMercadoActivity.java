@@ -55,7 +55,7 @@ public class HomeMercadoActivity extends Activity {
 		c = new ConexionHttpGet();
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		slideHome = (LinearLayout)findViewById(R.id.slide_home);
+		//slideHome = (LinearLayout)findViewById(R.id.slide_home);
 				
 		menuBtn = (ImageButton)findViewById(R.id.menuBtn);
 		menuBtn.setOnClickListener(gotoSection);

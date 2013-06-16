@@ -49,25 +49,6 @@
         </RelativeLayout>
         
     </RelativeLayout>
-<<<<<<< HEAD
-    
-    <ScrollView
-        	android:layout_below="@+id/header"
- 		    android:id="@+id/scrollView1"
- 		    android:layout_width="match_parent"
- 		    android:layout_height="wrap_content" >
-    
-	 	<LinearLayout
-	        android:id="@+id/slide_home"
-	        android:layout_width="fill_parent"
-	        android:layout_height="fill_parent"
-	        android:background="#efefef"
-	        android:orientation="vertical" >
-	
-	    </LinearLayout>
-    
- 	</ScrollView>
-=======
 
     <TabHost xmlns:android="http://schemas.android.com/apk/res/android"
              android:id="@android:id/tabhost"
@@ -88,6 +69,6 @@
                     android:layout_height="fill_parent"/>
         </LinearLayout>
     </TabHost>
->>>>>>> 2b9729bbad1fb96fc21bffd5d966b4949c773b8c
+
 
 </RelativeLayout>
