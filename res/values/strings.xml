@@ -4,4 +4,26 @@
     <string name="app_name">Vestime</string>
     <string name="action_settings">Settings</string>
 
+    <string-array name="talles_array">
+        <item>XS</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+    </string-array>
+
+    <string-array name="colores_array">
+        <item>Rojo</item>
+        <item>Verde</item>
+        <item>Amarillo</item>
+        <item>Orange</item>
+        <item>Oliva</item>
+        <item>Precioso</item>
+    </string-array>
+
+    <string-array name="estado_array">
+        <item>Nuevo</item>
+        <item>Usado</item>
+    </string-array>
 </resources>
